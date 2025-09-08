@@ -1,0 +1,34 @@
+# Ambientes virtuais
+venv/
+.venv/
+
+# Cache e artefatos Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.python-version
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Dados temporários
+data/raw/*
+!data/raw/.gitkeep
+data/tmp/*
+!data/tmp/.gitkeep
+
+# Logs e outputs
+logs/
+outputs/
+.DS_Store
+
+# VS Code
+.vscode/
+.history/
+
+# Sistema
+Thumbs.db
+desktop.ini
