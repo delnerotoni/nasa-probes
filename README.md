@@ -1,22 +1,54 @@
-# Projeto NASA Probes
+# 📡 NASA Probes — Dashboards de Exoplanetas
 
-Análise de dados de sondas da NASA usando Python (pandas, matplotlib).
+Projeto em desenvolvimento por **Tony Del Nero**, com foco em análise e visualização de dados de exoplanetas detectados por sondas da NASA.
 
-## Instalação
-1. Crie o ambiente:
-   - Windows: `python -m venv venv` e `venv\Scripts\activate`
-2. Instale dependências: `pip install -r requirements.txt`
+---
 
-## Uso
-- Notebooks em `notebooks/`
-- Scripts em `probes/` ou `scripts/`
+## 🚀 Objetivo
 
-## Estrutura
-- `notebooks/` — análises exploratórias
-- `probes/` — código-fonte
-- `data/` — dados (`raw/`, `tmp/`)
-- `venv/` — ambiente virtual (ignorado)
-- `requirements.txt` — dependências
+Criar dashboards interativos no Power BI para explorar dados de exoplanetas compactos, facilitando a análise científica e a comunicação visual dos achados.
 
-## Licença
-MIT
+---
+
+## 📁 Estrutura do Projeto
+
+
+| Caminho                          | Conteúdo / Finalidade                                                                 |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| `data/`                          | 📊 Arquivos de dados originais, como o CSV da NASA                                    |
+| `data/tmp/`                      | 🧪 Arquivos temporários gerados por scripts, como amostras de dados                   |
+| `scripts/`                       | 🐍 Scripts Python para manipulação e preparação dos dados                             |
+| `notebooks/`                     | 📓 Notebooks Jupyter para análises exploratórias (em desenvolvimento)                |
+| `powerbi/`                       | 📈 Dashboards interativos criados no Power BI                                         |
+| `README.md`                      | 📘 Documentação do projeto                                                             |
+
+
+---
+
+## ✅ Funcionalidades já implementadas
+
+- Script Python para gerar amostras dos dados originais (`gerar_amostra.py`)
+- Dashboard Power BI com visualizações interativas sobre exoplanetas
+- Organização inicial do repositório com estrutura clara
+
+---
+
+## 🔧 Em desenvolvimento
+
+- Novos dashboards temáticos
+- Notebooks para análise exploratória com Python
+- Padronização de nomes e estrutura de arquivos
+- Documentação técnica e científica
+
+---
+
+## 👨‍💻 Autor
+
+**Tony Del Nero**  
+Desenvolvedor e entusiasta de dados espaciais  
+GitHub: [delneronitoni](https://github.com/delneronitoni)
+
+---
+
+> Este projeto está em fase de desenvolvimento. Atualizações serão feitas conforme novas funcionalidades forem implementadas.
+
